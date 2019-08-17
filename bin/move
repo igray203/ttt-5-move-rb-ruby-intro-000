@@ -8,6 +8,5 @@ puts "Welcome to Tic Tac Toe!"
 puts display_board(board)
 puts "Where would you like to go?"
 input = gets.strip
-converted_input_to_index = input_to_index(input)
-update_array_at_with(board, converted_input_to_index, "x")
+update_array_at_with(board, input_to_index(input), "x")
 puts display_board(board)
