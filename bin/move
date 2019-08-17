@@ -6,7 +6,5 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
-#input = gets
+input = gets
 #update_array_at_with(display_board(board), 5, "x")
-
-puts show
