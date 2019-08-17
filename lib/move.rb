@@ -20,6 +20,6 @@ def update_array_at_with(array, index, value)
 
 end
 puts display_board(board)
-fort = gets
+input = gets
 update_array_at_with(board, 9, "x")
 puts display_board(board)
