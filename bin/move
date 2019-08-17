@@ -14,3 +14,6 @@ def display_board(board)
 
 end
 board = [" "," "," "," "," "," "," "," "," "]
+
+input = gets.strip
+update_array_at_with(board, input_to_index(input), "x")
