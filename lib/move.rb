@@ -15,7 +15,7 @@ def input_to_index(input)
 
 end
 
-def update_array_at_with(array, index, value)
+def move(array, index, value)
   array[index] = value
 
 end
