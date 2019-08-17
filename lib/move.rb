@@ -5,8 +5,7 @@ def display_board
   puts "-----------"
   puts " 5 | g| 6 "
 end
-board = [" "," "," "," "," "," "," "," "," "]
-
+puts display_board
 # code your input_to_index and move method here!
 
 def input_to_index(input)
