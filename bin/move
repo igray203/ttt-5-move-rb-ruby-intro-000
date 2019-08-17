@@ -9,4 +9,4 @@ puts "Where would you like to go?"
 input = gets
 #update_array_at_with(display_board(board), input_to_index(input), "x")
 
-puts display_board(board)
+puts input_to_index(input)
