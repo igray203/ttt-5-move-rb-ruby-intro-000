@@ -9,4 +9,4 @@ puts "Where would you like to go?"
 #input = gets
 #update_array_at_with(display_board(board), 5, "x")
 
-puts display_board(board)
+puts show
