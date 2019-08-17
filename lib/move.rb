@@ -1,9 +1,9 @@
-def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+def display_board
+  puts " 4 | g | 4 "
   puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts " 4 | 4 | 4 "
   puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  puts " 5 | g| 6 "
 end
 board = [" "," "," "," "," "," "," "," "," "]
 
