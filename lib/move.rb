@@ -21,5 +21,5 @@ def update_array_at_with(array, index, value)
 end
 puts display_board(board)
 fort = gets
-update_array_at_with(board, fort, "x")
+update_array_at_with(board, 9, "x")
 puts display_board(board)
