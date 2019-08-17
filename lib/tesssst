@@ -1,8 +1,8 @@
-board = [" "," "," "," "," "," "," "," "," "]
+board = ["6","5","4","3","2","2","2","4","5"]
 
 def update_array_at_with(array, index, value)
   array[index] = value
 
 end
-
+puts board
 update_array_at_with(board, 0, "x")
