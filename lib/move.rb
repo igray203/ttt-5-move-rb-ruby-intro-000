@@ -17,4 +17,3 @@ def update_array_at_with(array, index, value)
 end
 
 update_array_at_with(board, input_to_index(5), "x")
-board = [" "," "," "," "," "," "," "," "," "]
