@@ -7,5 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to go?"
 input = gets
-#update_array_at_with(board, input_to_index(input), "x")
+update_array_at_with(board, input_to_index(input), "x")
 puts display_board(board)
