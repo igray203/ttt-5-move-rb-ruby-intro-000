@@ -19,5 +19,5 @@ def update_array_at_with(array, index, value)
   array[index] = value
 
 end
-
+show = display_board(board)
 #update_array_at_with(board[], input_to_index(5), "x")
