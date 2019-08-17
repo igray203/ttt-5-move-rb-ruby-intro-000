@@ -21,9 +21,7 @@ def update_array_at_with(array, index, value)
 end
 
 def game
-  puts display_board(board)
   input = gets
   update_array_at_with(board, input_to_index(input), "x")
   puts display_board(board)
-
 end
