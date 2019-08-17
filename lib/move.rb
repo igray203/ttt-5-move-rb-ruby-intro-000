@@ -19,9 +19,3 @@ def update_array_at_with(array, index, value)
   array[index] = value
 
 end
-
-def game
-  input = gets
-  update_array_at_with(board, input_to_index(input), "x")
-  puts display_board(board)
-end
